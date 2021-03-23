@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<a class="navbar-brand" href="codeweb.html">FC BARCELONA</a>
+<ul class="navbar-nav ml-auto">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus1401.html">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gallery14041.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact1401.html">Contact us</a>
+    </li>
+  </ul>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src=".\barca1.jpg" alt="Our new kit" width="1920" height="1080">
+      <div class="carousel-caption">
+        <h3>Our new kit</h3>
+        <p>Still us but new version!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src=".\barca2.jpg" alt="Look back" width="1920" height="1080">
+      <div class="carousel-caption">
+        <h3>Look back</h3>
+        <p>Thank you, Cules!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src=".\barca3.jpg" alt="Highlights" width="1920" height="1080">
+      <div class="carousel-caption">
+        <h3>Highlights</h3>
+        <p>Our best moments!</p>
+      </div>   
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<style>
+#more {display: none;}
+</style>
+  <section>
+    <center><br><h1>About us</h1></center>
+    <br>
+    <div class="container">
+  <div class="row">
+
+    <div class="col">
+      
+       <img src="E:\barca4.jpg" width="600" height="340">
+    </div>
+        
+        <div class="col">
+          <h3>FC Barcelona</h3>
+          <br>
+    <p>Futbol Club Barcelona , commonly referred to as Barcelona and colloquially known as Barça , is a Spanish professional football club based in Barcelona, that competes in La Liga, the top flight of Spanish football..<br> Founded in 1899 by a group of Swiss, Spanish, English, and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto "Més que un club" ("More than a club"). Unlike many other football clubs, the supporters own and operate Barcelona.<span id="dots">...</span><span id="more"> It is the fourth-most valuable sports team in the world, worth $4.06 billion, and the world's richest football club in terms of revenue, with an annual turnover of €840,8 million. The official Barcelona anthem is the "Cant del Barça", written by Jaume Picas and Josep Maria Espinàs. Barcelona traditionally play in dark shades of blue and red stripes, leading to the nickname Blaugrana.</span></p>
+
+<button class="btn-link" onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+    </div>
+
+  </div>
+</div>
+  <section>
+    <center><br><h1>Hello!</h1></center>
+  </section>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+video {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3F3F3F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}.
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+</style>
+<script>
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+</head>
+<body>
+<br><br>
+<video width="670" controls>
+  <source src="./barcalogo.mp4" type="video/mp4">
+</video>
+<br>
+<br>
+<br>
+<form action="action_page.php">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>About our future plans...</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+</body>
+<section>
+  <br>
+    <h1 style="text-align: center;">Players</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src=".\barca7.jpg" width="200" height="330">
+    <h4>Messi</h4>
+    <p>Striker<br> Our captain </p>
+    </div>  
+ <div class="col">
+      <img src=".\barca5.jpg" width="200" height="330">
+    <h4>Busquets</h4>
+    <p>Midlefielder <br>
+    </div>
+     <div class="col">
+      <img src=".\barca11.jpg" width="200" height="330">
+    <h4>Rakitic</h4>
+    <p>Midlefielder<br>
+    </div>
+  
+    <div class="col">
+      <img src=".\barca14.jpg" width="200" height="330">
+    <h4>Jordi Alba</h4>
+
+    <p>Defender<br> 
+
+    </div>
+ <div class="col">
+      <img src=".\barca6.jpg" width="200" height="330">
+    <h4>De Jong</h4>
+    <p>Midlefielder </p>
+    </div>
+
+    <div class="col">
+      <img src=".\barca8.jpg" width="200" height="330">
+    <h4>Ansu Fati</h4>
+    <p>Striker </p>
+    </div>
+
+    <div class="col">
+      <img src=".\barca9.jpg" width="200" height="330">
+    <h4>Leng Let</h4>
+    <p>Defender </p>
+    </div>
+
+    <div class="col">
+      <img src=".\barca10.jpg" width="200" height="330">
+    <h4>Ter Stegen</h4>
+    <p>Goalkeeper </p>
+    </div>
+    
+</section>
+
+      <section>
+        <br>
+        <h1 style="text-align: center;">Contact us</h1>
+      </section>
+            <div class="container">
+  <div style="text-align:center">
+    <p>
+Send us your comments and suggestions</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <br>
+      <br>
+
+      <br>
+      <br>
+      <img src=".\barca1.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Spain</option>
+          <option value="canada">Canada</option>
+          <option value="usa">England</option>
+        </select>
+        <label for="subject">Your comments and suggestions</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #3F3F3F;
+    color: white;
+    text-align: center;
+      }
+
+  .fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 30px;
+  border-radius: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+
+  .fa-google {
+  background: #dd4b39;
+  color: white;
+  }
+
+  .fa-youtube {
+  background: #bb0000;
+  color: white;
+  }
+
+  .fa-instagram {
+  background: #125688;
+  color: white;
+  }
+
+ 
+</style>
+
+<div class="footer">
+  <br>
+  <a href="https://www.facebook.com/truonghan888/" class="fa fa-facebook"></a>
+  <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+  <a href="https://www.google.com" class="fa fa-google"></a>
+  <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/__if_you___/" class="fa fa-instagram"></a>
+
+  <br>
+  <br>
+</html>
